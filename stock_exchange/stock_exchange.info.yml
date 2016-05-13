@@ -1,0 +1,4 @@
+name: 'Stock Exchange'
+description: 'Stock exchange exercise for Drupal 8'
+type: module
+core: 8.x

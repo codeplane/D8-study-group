@@ -1,0 +1,4 @@
+name: 'Auto Capitalize Filter'
+description: 'This module performs auto-capitalize operation on special words.'
+type: module
+core: 8.x

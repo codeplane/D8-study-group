@@ -1,0 +1,7 @@
+cron_queue_email.form:
+  path: '/cqe'
+  defaults:
+    _form: '\Drupal\cron_queue_email\Form\UserEmailQueueForm'
+    _title: 'User Email'
+  requirements:
+    _permission: 'administer site configuration'

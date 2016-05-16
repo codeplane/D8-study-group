@@ -1,0 +1,4 @@
+name: 'Cron Queue Email'
+description: 'Module sends welcome email to new registered users'
+type: module
+core: 8.x

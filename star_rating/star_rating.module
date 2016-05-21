@@ -1,0 +1,10 @@
+<?php
+
+function star_rating_theme() {
+  return array(
+    'star_rating_number_formatter' => array(
+      'variables' => array('value' => NULL),
+      'template' => 'star-rating-formatter',
+    ),
+  );
+}

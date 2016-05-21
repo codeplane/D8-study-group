@@ -1,0 +1,5 @@
+star_rating:
+  version: VERSION
+  css:
+    theme:
+      css/star-rating.css: {}

@@ -1,0 +1,4 @@
+name: 'Anonymous Header'
+description: 'This module add anonymous header for anonymous users.'
+type: module
+core: 8.x

@@ -11,8 +11,8 @@ use Drupal\Core\Block\BlockBase;
  * Implements hook_cron().
  */
 function stock_exchange_cron() {
-  dsm('yoy');
-  print_r('in stock');
+  //dsm('yoy');
+  //print_r('in stock');
   $blocks = \Drupal::entityTypeManager()
     ->getStorage('block_content')
     ->loadByProperties(array('type' => 'stock_exchange_rate_card'));
@@ -27,7 +27,7 @@ function stock_exchange_cron() {
 
     $last_price = $decoded_data['LastPrice'];
     $change = $decoded_data['Change'];
-    dsm($last_price);dsm($change);
+    //dsm($last_price);dsm($change);
     $block->set('field_change',$change);
     $block->set('field_last',$last_price);
     $block->save();

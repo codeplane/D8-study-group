@@ -1,0 +1,4 @@
+name: 'Block Caching Node Titles'
+description: 'node title cache tags based caching'
+type: module
+core: 8.x

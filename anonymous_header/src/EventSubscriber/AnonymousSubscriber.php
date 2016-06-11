@@ -19,7 +19,7 @@ class AnonymousSubscriber implements EventSubscriberInterface {
   public function addAccessAllowOriginHeaders(FilterResponseEvent $event) {
     $response= $event->getResponse();
     $response->headers->set('Access-Control-Allow-Origin', '*');
-    print_r($response);
+    //print_r($response);
   }
   /**
    * {@inheritdoc}
